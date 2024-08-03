@@ -1,0 +1,58 @@
+{
+  "name": "discord-music-bot-project",
+  "version": "1.0.0",
+  "description": "Discord Music Bot: Enhance your server with music playback.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "build": "tsc && tsc-watch --onSuccess \"npm run start\"",
+    "lint": "eslint . --ext .ts,.js",
+    "format": "prettier --write \"/.ts\" \"/.js\"",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spectra-ai-codegen/discord-music-bot-project.git"
+  },
+  "author": "Spectra.codes",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/spectra-ai-codegen/discord-music-bot-project/issues"
+  },
+  "homepage": "https://github.com/spectra-ai-codegen/discord-music-bot-project#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "ytdl-core": "^4.12.0",
+    "node-soundcloud": "^2.0.2",
+    "ffmpeg-static": "^5.1.0",
+    "commander": "^9.2.0",
+    "sqlite3": "^5.0.2",
+    "mongoose": "^6.8.1",
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "spotify-web-api-node": "^5.0.2",
+    "lastfm-node": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/commander": "^9.2.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^29.2.4",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^18.11.9",
+    "@types/node-soundcloud": "^1.2.1",
+    "@types/socket.io": "^3.0.2",
+    "@types/sqlite3": "^5.0.1",
+    "@types/spotify-web-api-node": "^5.0.2",
+    "@types/ytdl-core": "^4.11.1",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^29.3.1",
+    "prettier": "^2.8.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
